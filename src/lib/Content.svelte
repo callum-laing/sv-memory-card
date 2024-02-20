@@ -1,5 +1,5 @@
 <script>
-let cards = [1, 2, 3, 4, 5];
+let cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let previousNumber = null;
 let score = 0;
 let highScore = 0;
@@ -42,7 +42,7 @@ let startGame = () => {
 <h2>High Score: {highScore}</h2>
 {#if gameActive}
 <div class="cardContainer">
-    {#each cards as card (card)}
+    {#each cards.slice(0,5) as card (card)}
     <button on:click={() => clickButton(card)} class="card">{card}</button>
 {/each}
 </div>
