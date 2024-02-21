@@ -3,7 +3,7 @@ let cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let previousNumber = null;
 let score = 0;
 let highScore = 0;
-let gameActive = true;
+let gameActive = false;
 
 let shuffleCards = () => {
     for (let i = cards.length - 1; i > 0; i--) {
@@ -107,4 +107,5 @@ let startGame = () => {
         margin-left: 20px;
         font-family: Rubik,sans-serif;
     }
+
 </style>
