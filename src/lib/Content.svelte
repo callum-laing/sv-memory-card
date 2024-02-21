@@ -52,7 +52,7 @@ let startGame = () => {
 </div>
 {:else}
 <div class="startButton">
-
+    
     <button on:click={startGame}>START GAME</button>
 
 </div>
@@ -114,6 +114,16 @@ let startGame = () => {
     .scores {
         display: flex;
         justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+        .cardContainer {
+            flex-wrap: wrap;
+        }
+        .card {
+            height: 100px;
+            width: 75px;
+        }
     }
 
 </style>

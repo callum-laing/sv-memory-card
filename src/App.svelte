@@ -20,9 +20,7 @@
 
 <style>
 
-.githubSvg {
-  width: 20px;
-}
+
   footer {
 position: fixed;
     bottom: 0;
@@ -44,5 +42,15 @@ div {
   border: 2px solid black;
   border-radius: 10px;
   background-color: rgba(20, 120, 120);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    div {
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      font-size: .8rem;
+    }
 }
 </style>
