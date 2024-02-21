@@ -95,12 +95,12 @@ let startGame = () => {
     .startButton > p {
         width: 50%;
         letter-spacing: 2px;
-        margin-top: 50px;
+        margin-top: 30px;
         font-size: 1.2rem;
     }
 
     .startButton > button {
-        margin-top: 50px;
+        margin-top: 30px;
         width: 200px;
         height: 50px;
         font-size: 1.5rem;
