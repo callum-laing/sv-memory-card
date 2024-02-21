@@ -45,7 +45,7 @@ div {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
     div {
       width: 100%;
       background: transparent;
@@ -53,4 +53,12 @@ div {
       font-size: .8rem;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  div {
+    margin: 20px;
+    width: 100%;
+  }
+}
+
 </style>

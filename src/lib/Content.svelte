@@ -143,4 +143,13 @@ let startGame = () => {
         }
     }
 
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .cardContainer {
+            flex-wrap: wrap;
+        }
+        .card {
+            height: 125px;
+        }
+}
+
 </style>
