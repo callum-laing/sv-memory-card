@@ -108,7 +108,6 @@ let startGame = () => {
         cursor: pointer;
         background-color: black;
         color: white;
-        border: 2px solid rgba(150, 150, 250);
     }
 
     span {
@@ -118,7 +117,7 @@ let startGame = () => {
     }
 
     .startButton > button:hover {
-        border: 2px solid white;
+        border: 4px solid white;
     }
 
     h2 {
@@ -136,8 +135,11 @@ let startGame = () => {
             flex-wrap: wrap;
         }
         .card {
-            height: 100px;
+            height: 125px;
             width: 75px;
+        }
+        .startButton > p {
+            margin-top: 0;
         }
     }
 

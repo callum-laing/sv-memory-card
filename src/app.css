@@ -8,9 +8,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  /* background-color: rgba(30, 30, 30); */
   background: linear-gradient(to right top, #b2faac, #e6a147);
-  /* color: rgba(220, 220, 220); */
 }
 
 @media (max-width: 768px) {}

@@ -41,7 +41,7 @@ div {
   height: 500px;
   border: 2px solid black;
   border-radius: 10px;
-  background-color: rgba(20, 120, 120);
+    background: linear-gradient(to right top, #147878, #60db8e);
 }
 
 /* Mobile */
