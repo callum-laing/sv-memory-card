@@ -48,7 +48,7 @@ div {
 @media (max-width: 768px) {
     div {
       width: 100%;
-      background-color: transparent;
+      background: transparent;
       border: none;
       font-size: .8rem;
     }
