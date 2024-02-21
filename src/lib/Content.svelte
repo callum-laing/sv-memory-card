@@ -139,7 +139,7 @@ let startGame = () => {
             width: 75px;
         }
         .startButton > p {
-            margin-top: 0;
+            margin-top: 20px;
         }
     }
 
