@@ -69,15 +69,17 @@ let startGame = () => {
         width: 200px;
         box-shadow: 2px 2px 2px black;
         margin: 20px;
-        border-radius: 10px;
+        border-radius: 0 20px 0 20px;
         background-color: black;
         color: white;
         font-size: 4rem;
         cursor: pointer;
+        transition: border-radius .15s linear,border-color .15s linear;
     }
 
     .card:hover {
         border: 4px solid white;
+        border-radius: 20px;
     }
 
     .startButton {
