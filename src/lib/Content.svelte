@@ -46,7 +46,7 @@ let startGame = () => {
     <button on:click={() => clickButton(card)} class="card">{card}</button>
 {/each}
 </div>
-<h2>Current score: {score}</h2>
+<h2>Current Score: {score}</h2>
 {:else}
 <div class="startButton">
 
@@ -67,7 +67,7 @@ let startGame = () => {
         text-align: center;
         height: 300px;
         width: 200px;
-        border: 2px solid rgba(150, 150, 250);
+        box-shadow: 2px 2px 2px black;
         margin: 20px;
         border-radius: 10px;
         background-color: black;
@@ -77,7 +77,7 @@ let startGame = () => {
     }
 
     .card:hover {
-        border: 2px solid white;
+        border: 4px solid white;
     }
 
     .startButton {
@@ -103,5 +103,6 @@ let startGame = () => {
 
     h2 {
         margin-left: 20px;
+        font-family: Rubik,sans-serif;
     }
 </style>

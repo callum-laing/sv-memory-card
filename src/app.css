@@ -8,8 +8,9 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(30, 30, 30);
-  color: rgba(220, 220, 220);
+  /* background-color: rgba(30, 30, 30); */
+  background: linear-gradient(to right top, #b2faac, #e6a147);
+  /* color: rgba(220, 220, 220); */
 }
 
 @media (max-width: 768px) {}
@@ -38,7 +39,9 @@ object {
 h1 {
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
-  color: #ccd0e8;
+  font-family: "Kode Mono", monospace;
+  font-size: 2.5rem;
+  /* color: #ccd0e8; */
 }
 
 p {
