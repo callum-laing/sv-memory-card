@@ -52,9 +52,9 @@ let startGame = () => {
 </div>
 {:else}
 <div class="startButton">
-    
+    <p><span>HOW TO PLAY:</span> Select a card, but don't select the same one twice in a row!</p>
+    <p>Keep going until your memory fails, and see how high a score you can reach.</p>
     <button on:click={startGame}>START GAME</button>
-
 </div>
 {/if}
 
@@ -89,9 +89,18 @@ let startGame = () => {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+    }
+
+    .startButton > p {
+        width: 50%;
+        letter-spacing: 2px;
+        margin-top: 50px;
+        font-size: 1.2rem;
     }
 
     .startButton > button {
+        margin-top: 50px;
         width: 200px;
         height: 50px;
         font-size: 1.5rem;
@@ -100,6 +109,12 @@ let startGame = () => {
         background-color: black;
         color: white;
         border: 2px solid rgba(150, 150, 250);
+    }
+
+    span {
+        font-weight: bolder;
+        font-size: 1.5rem;
+        font-family: "Kode Mono", monospace;
     }
 
     .startButton > button:hover {
