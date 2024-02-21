@@ -39,14 +39,17 @@ let startGame = () => {
 };
 
 </script>
-<h2>High Score: {highScore}</h2>
+<div class="scores">
+    <h2>High Score: {highScore}</h2>
+    <h2>Current Score: {score}</h2>
+</div>
+
 {#if gameActive}
 <div class="cardContainer">
     {#each cards.slice(0,5) as card (card)}
     <button on:click={() => clickButton(card)} class="card">{card}</button>
 {/each}
 </div>
-<h2>Current Score: {score}</h2>
 {:else}
 <div class="startButton">
 
@@ -106,6 +109,11 @@ let startGame = () => {
     h2 {
         margin-left: 20px;
         font-family: Rubik,sans-serif;
+    }
+
+    .scores {
+        display: flex;
+        justify-content: center;
     }
 
 </style>

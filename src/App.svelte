@@ -13,8 +13,25 @@
 
 </main>
 
+<footer>
+  <h2>Copyright© 2024 Callum Laing</h2>
+</footer>
+
 
 <style>
+
+.githubSvg {
+  width: 20px;
+}
+  footer {
+position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+      font-family: "Kode Mono", monospace;
+      font-size: .75rem;
+  }
+
 main {
   display: flex;
   align-items: center;
@@ -23,7 +40,7 @@ main {
 }
 div {
   width: 1250px;
-  height: 600px;
+  height: 500px;
   border: 2px solid black;
   border-radius: 10px;
   background-color: rgba(20, 120, 120);
